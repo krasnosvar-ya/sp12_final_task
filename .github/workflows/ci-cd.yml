@@ -2,10 +2,10 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, sp12_final_task ]
     tags: [ 'v*' ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, sp12_final_task ]
 
 env:
   # Using GitHub Container Registry (ghcr.io)
