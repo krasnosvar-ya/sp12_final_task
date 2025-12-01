@@ -10,7 +10,7 @@ on:
 env:
   # Using GitHub Container Registry (ghcr.io)
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}/app  # Uses your GitHub repository path
+  IMAGE_NAME: ${{ github.repository }}/sp12_final_task  # Uses your GitHub repository path
 
 jobs:
   test:
